@@ -1,38 +1,32 @@
-
-{
-    "myBudget":[
+{"myBudget":
+    [
     {
-        "title":"Eat out",
-        "budget" : 30
+        "title": "Eat Out",
+        "budget": 30
     },
     {
-        "title":"Rent",
-        "budget" : 350
+        "title": "Rent",
+        "budget": 350
     },
     {
-        "title":"Groceries",
-        "budget" : 90
-    },
-    {
-        "title":"Bills",
-        "budget": 50
-    },
-    {
-        "title":"Travel",
-        "budget": 45
-    },
-    {
-        "title":"Electronics",
-        "budget": 110
-    },
-    {
-        "title":"Clothes",
+        "title": "Groceries",
         "budget": 90
     },
     {
-        "title":"Misc",
-        "budget":"45"
+        "title" : "Electronic",
+        "budget": 120
+    },
+    {
+        "title" : "Electricity",
+        "budget": 60
+    },
+    {
+        "title" : "Book",
+        "budget": 55
+    },
+    {
+        "title" : "Car",
+        "budget": 210
     }
-    
 ]
 }
