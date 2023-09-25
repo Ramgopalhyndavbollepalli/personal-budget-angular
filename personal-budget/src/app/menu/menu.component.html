@@ -1,6 +1,15 @@
-<nav class="menu">
-  <ul>
-    <!-- This is an A11y Change -->
+<body>
+<nav>  <!-- 1)This is a Semantic HTML Change -->
+
+  <div class="heading">
+
+    <h4>Network Based Application development</h4>
+
+  </div>
+
+  <ul class="nav-links">
+
+    <!-- 1)This is an A11y Change -->
     <li><a [routerLink]="['/']" role="link" aria-label="Homepage">Homepage</a></li>
     <li>
       <a [routerLink]="['/about']" role="link" aria-label="AboutPage">About</a>
@@ -10,7 +19,6 @@
     </li>
   </ul>
 
-  <a href="https://google.com" role="link">
-    <img src="../../assets/user.webp" alt="Profile Picture" class="image" />
-  </a>
 </nav>
+</body>
+
